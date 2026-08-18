@@ -4,7 +4,7 @@
 - [x] 1.2 Configure OpenSpec project context with the Daedalus stack and architectural constraints.
 - [x] 1.3 Add a pull request template requiring `Closes #<issue>`, the OpenSpec change link, concise TDD evidence, and validation results.
 - [x] 1.4 Document the mandatory red-green-refactor loop for behavior changes.
-- [ ] 1.5 Create and publish the `develop` integration branch from the initial repository baseline.
+- [x] 1.5 Create and publish the `develop` integration branch from the initial repository baseline.
 
 ## 2. Backlog integration
 
