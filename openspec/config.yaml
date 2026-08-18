@@ -1,0 +1,25 @@
+schema: spec-driven
+
+context: |
+  Daedalus is a local-first desktop application for modelling software ecosystems.
+  Stack: Tauri, React, TypeScript, SQLite, and Cytoscape.js. Target platforms are macOS and Windows.
+  The domain layer must remain independent of UI, persistence, graph, desktop, and localization frameworks.
+  SQLite is canonical workspace storage; JSON and YAML are validated interchange formats.
+  Product and architectural requirements are recorded in PRD.md and ARD.md.
+
+rules:
+  proposal:
+    - Reference the GitHub feature issue that the change implements.
+    - State non-goals when scope is intentionally excluded.
+  tasks:
+    - Keep tasks independently verifiable and ordered by dependency.
+
+operations:
+  apply:
+    guidance:
+      - For every behavior change, follow TDD: write and run a focused test that fails for the intended reason, implement the smallest change to pass it, then refactor with tests green.
+      - Do not record prompts, discarded attempts, or incidental errors; retain only relevant test and design evidence.
+      - Keep each feature scoped to one OpenSpec change and one GitHub issue.
+  archive:
+    guidance:
+      - Archive a change in the PR that merges its implementation into develop.
