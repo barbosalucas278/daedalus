@@ -8,6 +8,6 @@
 
 ## 2. Backlog integration
 
-- [ ] 2.1 Update issue #14 with its active OpenSpec change path and implementation checklist.
-- [ ] 2.2 Define the Project status transitions used by agents: Todo, In Progress, In Review, Done.
-- [ ] 2.3 Verify that the documented flow targets `develop`, captures TDD evidence, and archives the change in the merged PR.
+- [x] 2.1 Update issue #14 with its active OpenSpec change path and implementation checklist.
+- [x] 2.2 Define the Project status transitions used by agents: Todo, In Progress, In Review, Done.
+- [x] 2.3 Verify that the documented flow targets `develop`, captures TDD evidence, and archives the change in the merged PR.

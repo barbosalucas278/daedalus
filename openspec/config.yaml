@@ -17,9 +17,9 @@ rules:
 operations:
   apply:
     guidance:
-      - For every behavior change, follow TDD: write and run a focused test that fails for the intended reason, implement the smallest change to pass it, then refactor with tests green.
-      - Do not record prompts, discarded attempts, or incidental errors; retain only relevant test and design evidence.
-      - Keep each feature scoped to one OpenSpec change and one GitHub issue.
+      - "For every behavior change, follow TDD: write and run a focused test that fails for the intended reason, implement the smallest change to pass it, then refactor with tests green."
+      - "Do not record prompts, discarded attempts, or incidental errors; retain only relevant test and design evidence."
+      - "Keep each feature scoped to one OpenSpec change and one GitHub issue."
   archive:
     guidance:
-      - Archive a change in the PR that merges its implementation into develop.
+      - "Archive a change in the PR that merges its implementation into develop."
